@@ -1,0 +1,107 @@
+[
+    {
+        "nombre": "crear_hosteria",
+        "grupo": "hosteria",
+        "descripcion": "Permite crear Hosteria"
+    },
+    {
+        "nombre": "editar_hosteria",
+        "grupo": "hosteria",
+        "descripcion": "Permite editar Hosteria"
+    },
+    {
+        "nombre": "eliminar_hosteria",
+        "grupo": "hosteria",
+        "descripcion": "Permite eliminar Hosteria"
+    },
+    {
+        "nombre": "habitaciones_hosteria",
+        "grupo": "hosteria",
+        "descripcion": "Muestra el reporte de habitaciones disponibles y ocupadas de una Hosteria"
+    },
+    {
+        "nombre": "ver_hosteria",
+        "grupo": "hosteria",
+        "descripcion": "Permite ver Hosterias"
+    },
+    {
+        "nombre": "crear_hotel",
+        "grupo": "hotel",
+        "descripcion": "Permite crear Hotel"
+    },
+    {
+        "nombre": "editar_hotel",
+        "grupo": "hotel",
+        "descripcion": "Permite editar Hotel"
+    },
+    {
+        "nombre": "eliminar_hotel",
+        "grupo": "hotel",
+        "descripcion": "Permite eliminar Hotel"
+    },
+    {
+        "nombre": "reporte-camas_hotel",
+        "grupo": "hotel",
+        "descripcion": "Muestra el reporte de camas de un hotel"
+    },
+    {
+        "nombre": "ver_hotel",
+        "grupo": "hotel",
+        "descripcion": "Permite ver Hotel"
+    },
+    {
+        "nombre": "crear_roles",
+        "grupo": "roles",
+        "descripcion": "Permite crear Roles"
+    },
+    {
+        "nombre": "editar_roles",
+        "grupo": "roles",
+        "descripcion": "Permite editar Roles"
+    },
+    {
+        "nombre": "eliminar_roles",
+        "grupo": "roles",
+        "descripcion": "Permite eliminar Roles"
+    },
+    {
+        "nombre": "reportes_roles",
+        "grupo": "roles",
+        "descripcion": "Muestra los reportes de roles"
+    },
+    {
+        "nombre": "ver_roles",
+        "grupo": "roles",
+        "descripcion": "Permite ver Roles"
+    },
+    {
+        "nombre": "crear_usuarios",
+        "grupo": "usuarios",
+        "descripcion": "Permite crear a los usuarios"
+    },
+    {
+        "nombre": "editar_usuarios",
+        "grupo": "usuarios",
+        "descripcion": "Permite editar a los usuarios"
+    },
+    {
+        "nombre": "eliminar_usuarios",
+        "grupo": "usuarios",
+        "descripcion": "Permite eliminar a los usuarios"
+    },
+    {
+        "nombre": "reportes-basicos_usuarios",
+        "grupo": "usuarios",
+        "descripcion": "Permite hacer un reporte de usuarios como ejemplo"
+    },
+    {
+        "nombre": "reportes_usuarios",
+        "grupo": "usuarios",
+        "descripcion": "Muestra los reportes de usuarios"
+    },
+    {
+        "nombre": "ver_usuarios",
+        "grupo": "usuarios",
+        "descripcion": "Permite ver a los usuarios"
+    }
+]
