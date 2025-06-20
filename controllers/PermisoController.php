@@ -139,7 +139,7 @@ class PermisoController {
                 $permiso = Permiso::obtenerPorNombre($permisoNombreActual);
 
                 if ($permiso) {
-                    Permiso::actualizarNombre($permiso['id'], $permisoNombreNuevo);
+                    Permiso::actualizarNombre($permiso['id'], $permisoNombreNuevo, $grupoNuevo);
                 }
             }
 
