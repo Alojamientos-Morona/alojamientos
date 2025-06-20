@@ -77,8 +77,13 @@ $conn = Database::getConnection();        if (empty($permisoIds)) return false;
         return $stmt->fetchColumn() > 0;
     }
 
-    public static function actualizarNombre($id, $nuevoNombre) {
-$conn = Database::getConnection();        $stmt = $conn->prepare("UPDATE permiso SET nombre = ? WHERE id = ?");
+    public static function actualizarNombre($id, $nuevoNombre, $nuevoGrupo = null) {
+$conn = Database::getConnection();
+        if ($nuevoGrupo !== null) {
+            $stmt = $conn->prepare("UPDATE permiso SET nombre = ?, grupo = ? WHERE id = ?");
+            return $stmt->execute([$nuevoNombre, $nuevoGrupo, $id]);
+        }
+        $stmt = $conn->prepare("UPDATE permiso SET nombre = ? WHERE id = ?");
         return $stmt->execute([$nuevoNombre, $id]);
     }
 
